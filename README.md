@@ -17,8 +17,8 @@ Team, a better understand of the vision of ThinQ and, the webiste will be update
 ## Setup
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
 
-# Status
+## Status
 The project is **Completed** until the future updates.
 
-# Inspiration
+## Inspiration
 This project is ispired from "Full-Stack Engineer" career path course from Codecademy. The project was made totally independed from the platform. 
