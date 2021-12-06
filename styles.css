@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 12em;
+    background-color: aqua;
+}
+
+.header-list {
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+}
