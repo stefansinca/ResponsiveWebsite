@@ -2,16 +2,14 @@ body {
     margin: 0;
     background-color: black;
     padding: 0;
+    color: white;
 }
 
 ul {
     padding: 0;
 }
 
-/* DESKTOP and TABLET SCREEN RESPONSIVE 
-/////////////////////////////////////// */
-
-@media only screen and (min-width: 601px) {
+@media screen and (min-width: 741px) { 
 
 header {
     width: 100%;
@@ -43,6 +41,7 @@ h2 {
 .mission,
 .portofolio, 
 .investment {
+    padding: 0.6em 1em ;
     cursor: pointer;
 }
 
@@ -76,24 +75,139 @@ h2 {
     margin: 0 auto;
     margin: 0 10%;
     line-height: 2em;
+    font-size: 1.7em;
 }
 
 .mission-btn {
     color: white;
     text-align: center;
     background-color: rgb(255, 255, 255, 15%);
-    margin-top: 10%;
-    margin-left: 46%;
-    border-radius: 0.6em;
+    margin: 10% auto;
+    border-radius: 0.9em;
     padding: 0.9em 1.6em;
     cursor: pointer;
     border-style: none;
+    font-size: 1.1em;
 }
 
 .mission-btn:hover {
     background-color: rgb(255, 255, 255, 30%);
 }
 
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portofolio-title {
+    font-size: 5em;
+}
+
+.portofolio-div img{
+    width: 100%;
+}
+
+.portofolio-div p {
+    margin: 2em;
+}
+
+.portofolio-div {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 3em 0;
+    width: 100%;
+    text-align: center;
+    height: 30em;
+}
+
+.portofolio-div button {
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 15%);
+    margin: 0 auto;
+    border-radius: 0.9em;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    border-style: none;
+}
+.portofolio-div button:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+
+.first-div {
+    display: inline-block;
+    width: 33.3%;
+    /* margin: 0 0 0 1em; */
+    margin: 0 0 0 1em;
+}
+
+.second-div {
+    display: inline-block;
+    width: 33.3%;
+    margin: 0 1em 0;
+}
+
+.third-div {
+    display: inline-block;
+    width: 33.3%;
+    margin: 0 1em 0 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-title {
+    font-size: 4em;
+}
+
+.team-members {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 3em 0;
+    width: 100%;
+}
+
+.team-members img {
+        width: 100%;
+        height: 60%;
+}
+
+.team-members h4, p {
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 main,
 footer {
     display: flex;
@@ -102,8 +216,8 @@ footer {
     height: auto;
 }
 
-.portofolio-img,
-.team-img {
+.portofolio-div,
+.team-members img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -209,127 +323,5 @@ footer h4 {
 .contact-text {
     font-size: 1em ;
 }
-}
 
-/* SMARTPHONE SCREEN RESPONSIVE 
-/////////////////////////////////////// */
-
-@media only screen and (max-width: 601px ) {
-
-    header {
-        width: 100%;
-        height: 1em;
-        display: flex;
-        flex-direction: column;
-        margin-top: 3em;
-    }
-    
-    .title {
-        margin: 0 auto;
-        text-align: center;
-        padding: 0.1em 0 ;
-        color: white;
-    }
-    
-    h2 {
-        font-size: 3em;
-    }
-    
-    .header-list { 
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin: 2% 13%;
-        color: white;
-    }
-    
-    .mission,
-    .portofolio, 
-    .investment {
-        padding: 0;
-        cursor: pointer;
-    }
-    
-    .mission:hover,
-    .portofolio:hover,
-    .investment:hover {
-        text-decoration: underline;
-    }
-    
-    .mission-div {
-        background-color: black;
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        padding: 10% 0;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .mission-title {
-        color: white;
-        margin: 0 auto;
-        text-align: center;
-        padding: 1em 2em;
-        font-size: 5em;
-    }
-    
-    .mission-description {
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        margin: 0 10%;
-        line-height: 2em;
-    }
-    
-    .mission-btn {
-        color: white;
-        text-align: center;
-        background-color: rgb(255, 255, 255, 15%);
-        margin-top: 10%;
-        margin-left: 40%;
-        border-radius: 0.6em;
-        padding: 0.9em 1.6em;
-        cursor: pointer;
-        border-style: none;
-    }
-    
-    .mission-btn:hover {
-        background-color: rgb(255, 255, 255, 30%);
-    }
-
-    .portofolio,
-    .team-img {
-    display: flex;
-    flex-direction: column ;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.portofolio img {
-    width: 100% !important;
-    margin: 0 auto;
-    display: block;
-
-}
-
-.portofolio-description,
-.team-description,
-.person {
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-}
-
-.portofolio-description p {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    color: white;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-}
+*/ 

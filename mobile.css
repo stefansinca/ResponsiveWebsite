@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 740px) {
+
+/* HEADER and MISSION START */
+
+header {
+    width: 100%;
+    height: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: left;
+    padding: 0.1em 0 ;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.header-list { 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 13%;
+    color: white;
+}
+
+.mission,
+.portofolio, 
+.investment {
+    padding: 0.6em 1em ;
+    cursor: pointer;
+}
+
+.mission:hover,
+.portofolio:hover,
+.investment:hover {
+    text-decoration: underline;
+}
+
+.mission-div {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mission-title {
+    color: white;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1em 2em;
+    font-size: 5em;
+}
+
+.mission-description {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin: 0 2em 0 2em;
+    line-height: 1.4em;
+    font-size: 1.6em;
+}
+
+.mission-btn {
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 15%);
+    margin: 10% auto;
+    border-radius: 0.9em;
+    padding: 0.9em 1.6em;
+    cursor: pointer;
+    border-style: none;
+    font-size: 1.2em;
+}
+
+.mission-btn:hover {
+    background-color: rgb(255, 255, 255, 30%);
+}
+
+/* HEADER and MISSION FINAL */ 
+
+/* MAIN START */
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.portofolio-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.portofolio-title,
+.team-title {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2em;
+    font-size: 4em;
+    padding-bottom: 1.5em ;
+}
+
+.portofolio-div img {
+    width: 100%;
+}
+
+.portofolio-div p {
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    margin: 1.5em 1em 1em 1em;
+    line-height: 1.5em;
+}
+
+.work-btn {
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 0.9em;
+    margin: 1em 0 5em 1.5em;
+    width: 9rem;
+    font-size: 1.1em;
+}
+
+.work-btn:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.ai-btn {
+    width: 9rem;
+    padding: 0.8em 0.5em;
+    font-size: 1.05em;
+}
+
+.implement-btn {
+    width: 11rem;
+    padding: 0.8em 0.5em;
+    font-size: 1.1em;
+}
+
+/* MAIN FINAL */
+
+
+/* TEAM SECTION and FOOTER START */
+
+.team-title {
+    padding: 10% 2em;
+    font-size: 6em;
+}
+
+.team-members img {
+     width: 100%;
+}
+
+.team-members h4 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin: 1.5em 1em 0 1em;
+    line-height: 1.5em;
+}
+
+.team-members p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 7em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact p {
+    color: white;
+    line-height: 0.5em;
+}
+}
