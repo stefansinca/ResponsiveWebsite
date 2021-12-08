@@ -13,7 +13,15 @@ This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and
 
 ## Upcoming Updates
 This project is created to be updated based on futures courses from Codecademy or outside of the platform. Extra pages will be created, like Portofolio, more informations about
-Team, a better understand of the vision of ThinQ and, the webiste will be updated with JavaScript in the future. 
+Team, a better understand of the vision of ThinQ and, the webiste will be updated with JavaScript in the future.
+
+## Updated to ThinQ 2.0
+HTML code was changed to become a responsive website. The code was structured in a different way in comparison with the old HTML code. It's mutch more simplified now and much easier to be readed. In the same time, the CSS code is separated:
+
+1. style.css - is the stylesheet code for Desktop
+2. mobile.css - is the stylesheet for mobile devices
+
+I hope you'll enjoy. And YES. More updates are yet to come. 
 
 ## Setup
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
