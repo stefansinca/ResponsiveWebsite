@@ -2,7 +2,12 @@
 
 This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and it's meant to be a landing page of a short presentation of the company ThinQ (which  I really don't know if it really exist).
 
-<img width="1424" alt="Landing Screen" src="https://user-images.githubusercontent.com/66974377/144852541-bf0743b1-403d-4016-9d16-3e1af01d5686.png">
+## Desktop Version
+<img width="1421" alt="Desktop Version" src="https://user-images.githubusercontent.com/66974377/145283341-290a9993-3128-4b99-81cd-1c6effed5ae7.png">
+
+## Mobile Version
+<img width="719" alt="Mobile Version" src="https://user-images.githubusercontent.com/66974377/145283426-972a39a8-bd3b-4cf3-a041-b78b81060d3d.png">
+
 
 ## Technologies used
 
