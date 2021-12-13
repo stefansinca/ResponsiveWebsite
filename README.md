@@ -2,9 +2,9 @@
 
 This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and it's meant to be a landing page of a short presentation of the company ThinQ (which  I really don't know if it really exist).
 
-## Desktop
+## Images
+<img width="1421" alt="Screenshot at Dec 13 23-48-49" src="https://user-images.githubusercontent.com/66974377/145894324-b545370c-27bd-40eb-aab0-b53e8a1f9d68.png">
 <img width="1419" alt="Screenshot at Dec 13 23-39-44" src="https://user-images.githubusercontent.com/66974377/145893205-070376b1-2b0d-4e43-b2c3-9aea8cd78f81.png">
-## Contact Section
 <img width="1422" alt="Screenshot at Dec 13 23-40-03" src="https://user-images.githubusercontent.com/66974377/145893223-45358304-1e5e-4792-9959-da7cdb3acb17.png">
 
 ## Technologies used
@@ -41,4 +41,7 @@ Download the files from **ResponsiveWebsite** repositorie and open **index.html*
 The project is **Completed** until the future updates.
 
 ## Inspiration
-This project is ispired from "Full-Stack Engineer" career path course from Codecademy. The project was made totally independed from the platform. 
+This project is ispired from "Full-Stack Engineer" career path course from Codecademy. The project was made totally independed from the platform.
+
+## Time invested
+About 20 hours until now.
