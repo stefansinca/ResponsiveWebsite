@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>ThinQ</title>
+  </head>
+
+  <body>
+    <header>
+        <ul class="header-list">
+        <li class="home-btn">Home</li>
+        <li class="projects-btn">Projects</li>
+        <li class="contact-btn">Contact</li>
+      </ul>
+    </header>
+
+    <div class="mission-div">
+        <img src="./img/logo.svg" alt="logo" class="logo">
+      <p class="presentation-text">
+        We take bold risks, always striving for humility so that we remain open to even greater possibilities. 
+        We accelerate our efforts so that we can innovate and evolve with speed.
+      </p>
+    </div>
+
+
+
+    <main class="main">
+      <div class='main-img'>
+        <p class="html-description">We accelerate our efforts so that we can innovate and evolve with speed.</p>
+          <img src="" alt="Projects-image" id='imgChange'>
+          <h2 class="main-message"></h2>
+      </div>
+
+      <div class="div-btn">
+          <button id='html-btn' onmouseover="htmlButtonIn()" onmouseout="htmlButtonOut()">HTML Project</button>
+          <button id='css-btn' onmouseover="cssButtonIn()" onmouseout="cssButtonOut()">HTML & CSS Project</button>
+          <button id='js-btn' onmouseover="jsButtonIn()" onmouseout="jsButtonOut()">JavaScript Project</button>
+      </div>
+      </main>
+
+      <section>
+          <h2 class="skills-text">Skills</h2>
+          <h3 class="skills-description"></h3>
+          <div class="skills-img">
+              <a href="https://html.com"><img src="./img/html-logo.png" alt="HTML-logo"></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./img/css-logo.png" alt="CSS-logo"></a>
+              <a href="https://www.javascript.com"><img src="./img/javascript-logo.png" alt="JS-logo"></a>
+              <a href="https://github.com"><img src="./img/git-logo.png" alt="GitHub-logo"></a>
+              <a href="https://code.visualstudio.com"><img src="./img/vs-logo.png" alt="VsCode-logo"></a>
+          </div>
+      </section>
+
+      <footer>
+          <div class="contact-img">
+              <img src="./img/contact.jpg" alt="contact-img">
+          </div>
+          <div class="forms-div">
+
+              <div class="contact-us">
+                  <div class="text-message">
+                      <h4>CONTACT</h4>
+                      <H4>US</H4>
+                      <p class="contact-info">CONTACT INFO: +40 7611 223 445</p>
+                  </div>
+                </div>
+                    <div class="form">
+                  <form action="">
+                      <label for="fname"></label>
+                      <input type="text" id="fname" name="fname" placeholder="NAME"><br></br>
+
+                      <label for="lname"></label>
+                      <input type="text" id="lname" name="lname" placeholder="LAST NAME"><br></br>
+
+
+                      <label for="email"></label>
+                      <input type="text" id="email" name="email" placeholder="EMAIL"><br></br>
+
+                      <label for="message"></label>
+                      <input type="text" id="message" name="message" placeholder="MESSAGE"><br></br>
+
+                      <button class="send-btn">SEND</button>
+                  </form>
+                </div>
+                
+          </div>
+      </footer>
+
+
+<script src="./script.js"></script>
+<script src="./skillsTypeWriting.js"></script>
+  </body>
+</html>
