@@ -2,17 +2,16 @@
 
 This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and it's meant to be a landing page of a short presentation of the company ThinQ (which  I really don't know if it really exist).
 
-## Desktop Version
-<img width="1421" alt="Desktop Version" src="https://user-images.githubusercontent.com/66974377/145283341-290a9993-3128-4b99-81cd-1c6effed5ae7.png">
-
-## Mobile Version
-<img width="719" alt="Mobile Version" src="https://user-images.githubusercontent.com/66974377/145283426-972a39a8-bd3b-4cf3-a041-b78b81060d3d.png">
-
+## Desktop
+<img width="1419" alt="Screenshot at Dec 13 23-39-44" src="https://user-images.githubusercontent.com/66974377/145893205-070376b1-2b0d-4e43-b2c3-9aea8cd78f81.png">
+## Contact Section
+<img width="1422" alt="Screenshot at Dec 13 23-40-03" src="https://user-images.githubusercontent.com/66974377/145893223-45358304-1e5e-4792-9959-da7cdb3acb17.png">
 
 ## Technologies used
 
 - HTML
 - CSS
+- JavaScript
 - GitHub
 - VS Code 1.62
 
@@ -26,7 +25,14 @@ HTML code was changed to become a responsive website. The code was structured in
 1. style.css - is the stylesheet code for Desktop
 2. mobile.css - is the stylesheet for mobile devices
 
-I hope you'll enjoy. And YES. More updates are yet to come. 
+## Updated to ThinQ 3.0
+The code was redisegned to be a **responsive website** :
+
+1. JavaScript method added for Projects section: when hover on button, a new section display with details about the projects.
+2. JavaScript method for overwrite the entire body when click on a button and create a page with details about the project.
+3. JavaScript typewriting method added: typewriting effect added.
+4. Skills section was created and styled with some CSS.
+5. Contact sections was created with some CSS style.
 
 ## Setup
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
