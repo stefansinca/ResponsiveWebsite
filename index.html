@@ -2,101 +2,92 @@
 
 <html>
   <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
+    <title>ThinQ</title>
   </head>
 
   <body>
-    <header class="title">
-      <ul class="header-list">
-        <li class="mission">Our Mission</li>
-        <li class="portofolio">Portofolio</li>
-        <li class="investment">Investment Team</li>
+    <header>
+        <ul class="header-list">
+        <li class="home-btn">Home</li>
+        <li class="projects-btn">Projects</li>
+        <li class="contact-btn">Contact</li>
       </ul>
     </header>
 
     <div class="mission-div">
-      <h2 class="mission-title">ThinQ</h2>
-      <p class="mission-description">
-        We take bold risks, always striving for humility so that we remain open to even greater possibilities.
-        We erase boundaries between ourselves and our customers through continuously shared learning and growth. Our successes aren’t merely linked, they’re inseparably fused.
+        <img src="./img/logo.svg" alt="logo" class="logo">
+      <p class="presentation-text">
+        We take bold risks, always striving for humility so that we remain open to even greater possibilities. 
         We accelerate our efforts so that we can innovate and evolve with speed.
       </p>
-      <button class="mission-btn">Find More</button>
     </div>
 
-    <main>
-      <h3 class="portofolio-title">Our Work</h3>
 
-      <div class="portofolio-div">
 
-      <div class="first-div">
-        <img src="./img/automation.jpeg" alt="automation">
-        <p class="first-p">
-          The idea of the software is to make five-axis AM 
-          fully automated without the need for manual work 
-          or re-designs of a product. With IT automation, software 
-          is used to save time and free up IT staff.</p>
-        <button class="work-btn automation-btn">Automation</button>
-      </div>
-       
-      <div class="second-div">
-        <img src="./img/ai.jpeg" alt="Artificial Inteligence">
-        <p class="second-p">
-          Artificial intelligence (AI) is a wide-ranging 
-          branch of computer science concerned with building 
-          smart machines capable of performing tasks that 
-          typically require human intelligence, capacity to do complex 
-          maths calculations like all the time.
-        </p>
-        <button class="work-btn ai-btn">Learn More</button>
+    <main class="main">
+      <div class='main-img'>
+        <p class="html-description">We accelerate our efforts so that we can innovate and evolve with speed.</p>
+          <img src="" alt="Projects-image" id='imgChange'>
+          <h2 class="main-message"></h2>
       </div>
 
-      <div class="third-div">
-        <img src="./img/implementation.jpeg" alt="implementation">
-        <p class="third-p">
-          The overall process of creating momentum for an AI deployment
-          begins with achieving small victories, Carey reasoned.  It encompasses 
-          important areas such as user adoption, education and training.
-        </p>
-        <button class="work-btn implement-btn">Implementation</button>
+      <div class="div-btn">
+          <button id='html-btn' onmouseover="htmlButtonIn()" onmouseout="htmlButtonOut()">HTML Project</button>
+          <button id='css-btn' onmouseover="cssButtonIn()" onmouseout="cssButtonOut()">HTML & CSS Project</button>
+          <button id='js-btn' onmouseover="jsButtonIn()" onmouseout="jsButtonOut()">JavaScript Project</button>
       </div>
+      </main>
 
-      </div>
-    </main>
-
-    <footer>
-        <h3 class="team-title">Team</h3>
-
-        <div class="team-members">
-
-        <div class="first-div">
-            <img src="./img/yuri.png" alt="automation">
-            <h4>Yuri Lowenthal</h4>
-            <p>CEO and Co-Funder</p>
-        </div>
-
-        <div class="second-div">
-          <img src="./img/steve.webp" alt="Artificial Inteligence">
-          <h4>Steven Madden</h4>
-          <p>Marketing Manager Department</p>
-        </div>
-
-        <div class="third-div">
-          <img src="./img/wiliam.jpeg" alt="implementation">
-          <h4>Wiliam Shakespeare</h4>
-          <p>Art and Tech Implementation Manager</p>
-        </div>
-
+      <section>
+          <h2 class="skills-text">Skills</h2>
+          <h3 class="skills-description"></h3>
+          <div class="skills-img">
+              <a href="https://html.com"><img src="./img/html-logo.png" alt="HTML-logo"></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./img/css-logo.png" alt="CSS-logo"></a>
+              <a href="https://www.javascript.com"><img src="./img/javascript-logo.png" alt="JS-logo"></a>
+              <a href="https://github.com"><img src="./img/git-logo.png" alt="GitHub-logo"></a>
+              <a href="https://code.visualstudio.com"><img src="./img/vs-logo.png" alt="VsCode-logo"></a>
           </div>
+      </section>
 
-    </footer>
+      <footer>
+          <div class="contact-img">
+              <img src="./img/contact.jpg" alt="contact-img">
+          </div>
+          <div class="forms-div">
 
-    <div class="contact">
-      <p>+4(0754)112/456</p>
-      <p><a href="mailto:thinq@contact.com">thinq@contact.com</a></p>
-    </div>
-    
+              <div class="contact-us">
+                  <div class="text-message">
+                      <h4>CONTACT</h4>
+                      <H4>US</H4>
+                      <p class="contact-info">CONTACT INFO: +40 7611 223 445</p>
+                  </div>
+                </div>
+                    <div class="form">
+                  <form action="">
+                      <label for="fname"></label>
+                      <input type="text" id="fname" name="fname" placeholder="NAME"><br></br>
+
+                      <label for="lname"></label>
+                      <input type="text" id="lname" name="lname" placeholder="LAST NAME"><br></br>
+
+
+                      <label for="email"></label>
+                      <input type="text" id="email" name="email" placeholder="EMAIL"><br></br>
+
+                      <label for="message"></label>
+                      <input type="text" id="message" name="message" placeholder="MESSAGE"><br></br>
+
+                      <button class="send-btn">SEND</button>
+                  </form>
+                </div>
+                
+          </div>
+      </footer>
+
+
+<script src="./script.js"></script>
+<script src="./skillsTypeWriting.js"></script>
   </body>
 </html>
