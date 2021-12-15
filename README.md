@@ -39,7 +39,7 @@ The code was redisegned to be a **responsive website** :
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
 
 ## Status
-The project is **Completed** until the future updates.
+The project needs a **mobile version**. This update will come in ThinQ 4.0.
 
 ## Inspiration
 This project is ispired from "Full-Stack Engineer" career path course from Codecademy. The project was made totally independed from the platform.
