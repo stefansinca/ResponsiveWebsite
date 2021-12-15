@@ -4,6 +4,7 @@ body {
     background-color: black;
     margin: 0 auto;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 span {
@@ -17,11 +18,14 @@ span {
 }
 
 
+
 /* HEADER */
 
 header {
     display: flex;
     flex-direction: column;
+    background-color: black;
+    z-index: 2;
 }
 
 
@@ -35,8 +39,26 @@ ul {
 li {
     margin-left: 5em;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
+li:hover {
+    color: rgb(212, 158, 88);
+}
+
+.link-home-btn, 
+.link-projects-btn, 
+.link-contact-btn {
+    text-decoration: none;
+    color: white;
+}
+
+.link-home-btn:hover,
+.link-projects-btn:hover, 
+.link-contact-btn:hover {
+    color:rgb(212, 158, 88); ;
+} 
 
 
 
@@ -45,7 +67,8 @@ li {
 .mission-div {
     margin: 0 auto;
     text-align: center;
-    padding: 4em;
+    padding: 4em 4em 0 4em;
+    background-color: black;
 }
 
 .logo {
@@ -61,6 +84,36 @@ li {
     line-height: 2;
 }
 
+.moving-img1 {
+    width: 100%;
+    background-image: url(./img/main-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10em;
+    margin-top: 15%;
+    opacity: 0.5;
+}
+
+.moving-img2 {
+        width: 100%;
+        background-image: url(./img/back-img.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 10em;
+        margin-top: 13%;
+        opacity: 0.3;
+}
+
+/* This is the paragraph that will be displayed fromprojectsPage.js file 
+   for being a back button to Home Page */
+.link {
+    display: none;
+}
+
 
 
 
@@ -73,15 +126,16 @@ main {
     margin: 0 auto;
     padding: 0;
     justify-content: center;
-    height: 49em;
+    height: 40em;
 }
 
 .main-img {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 7% 0 9% 0;
     text-align: right;
+    padding: 12% 0 12% 0;
+    background-color: black;
 }
 
 .main-img h2 {
@@ -342,7 +396,7 @@ form {
     border-bottom: 1px solid #c0c0c0;
 }
 #lname:focus {
-    border-bottom: 1px solid #c0c0c0;0;
+    border-bottom: 1px solid #c0c0c0;
 }
 #fname:focus {
     border-bottom: 1px solid #c0c0c0;
@@ -365,7 +419,8 @@ form {
 .contact-info {
     font-size: .4em;
     margin-top: 25em;
-    width: 20em;
+    width: 22em;
     letter-spacing: 1px;
     color: #a3a3a3;
 }
+
