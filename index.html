@@ -2,42 +2,48 @@
 
 <html>
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>ThinQ</title>
   </head>
 
   <body>
-    <header>
+    <header id="header-div-id">
         <ul class="header-list">
-        <li class="home-btn">Home</li>
-        <li class="projects-btn">Projects</li>
-        <li class="contact-btn">Contact</li>
+        <li class="home-btn" onclick="homeBtn()"><a href="file:///Users/aipss/Documents/Projects/Business%20Presentation%20Website/index.html" class="link-home-btn">Home</a></li>
+        <li class="projects-btn" ><a onclick="document.location.reload(true); navigateProjects()" href="file:///Users/aipss/Documents/Projects/Business%20Presentation%20Website/index.html#main-img-id" class="link-projects-btn">Projects</a></li>
+        <li class="contact-btn"><a href="#contact-id" class="link-contact-btn">Contact</a></li>
       </ul>
     </header>
 
-    <div class="mission-div">
+    <div class="mission-div" id="mission-div-id">
         <img src="./img/logo.svg" alt="logo" class="logo">
       <p class="presentation-text">
         We take bold risks, always striving for humility so that we remain open to even greater possibilities. 
         We accelerate our efforts so that we can innovate and evolve with speed.
       </p>
+      <p class="link"><a href="file:///Users/aipss/Documents/Projects/Business%20Presentation%20Website/index.html" class="link-a">ThinQ</a>/Automation</p>
     </div>
+    <div class="moving-img1"></div>
 
-
-
-    <main class="main">
-      <div class='main-img'>
+    <main class="main" id="main-id">
+      <div class='main-img' id="main-img-id">
         <p class="html-description">We accelerate our efforts so that we can innovate and evolve with speed.</p>
           <img src="" alt="Projects-image" id='imgChange'>
           <h2 class="main-message"></h2>
       </div>
 
       <div class="div-btn">
-          <button id='html-btn' onmouseover="htmlButtonIn()" onmouseout="htmlButtonOut()">HTML Project</button>
-          <button id='css-btn' onmouseover="cssButtonIn()" onmouseout="cssButtonOut()">HTML & CSS Project</button>
-          <button id='js-btn' onmouseover="jsButtonIn()" onmouseout="jsButtonOut()">JavaScript Project</button>
+          <a href="#header-div-id"><button id='html-btn' onmouseover="htmlButtonIn()" onmouseout="htmlButtonOut()" onclick="missionModif(); createP()">Automation</button></a>
+          <a href="#header-div-id"><button id='css-btn' onmouseover="cssButtonIn()" onmouseout="cssButtonOut()" onclick="missionModifAlgorithmsPage(); createPAlgorithmsPage()">Algorithms</button></a>
+          <a href="#header-div-id"><button id='js-btn' onmouseover="jsButtonIn()" onmouseout="jsButtonOut()" onclick="missionModifAuthenticityPage(); createPAuthenticityPage() ">Authenticity</button></a>
       </div>
       </main>
+
+        <div class="moving-img2"></div>
 
       <section>
           <h2 class="skills-text">Skills</h2>
@@ -57,7 +63,7 @@
           </div>
           <div class="forms-div">
 
-              <div class="contact-us">
+              <div class="contact-us" id="contact-id">
                   <div class="text-message">
                       <h4>CONTACT</h4>
                       <H4>US</H4>
@@ -89,5 +95,8 @@
 
 <script src="./script.js"></script>
 <script src="./skillsTypeWriting.js"></script>
+<script src="./automation.js"></script>
+<script src="./algorithms.js"></script>
+<script src="./authenticity.js"></script>
   </body>
 </html>
