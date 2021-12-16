@@ -2,6 +2,7 @@
 // Typewriting module for MAIN
 const mainMessage = document.querySelector('.main-message');
 const getMain = document.querySelector('.main');
+const mediaQuery = window.matchMedia('(max-width: 700px)')
 
 let message = ['Take a look at my projects'];
 let textPosition = 0;
@@ -64,6 +65,25 @@ const cssButtonOut = () => mouseOut();
 let javaScriptMessage = 'The power of data means authencity. We guarantee authenticity.'
 const jsButtonIn = () => mouseOver('img/authenticity.png', javaScriptMessage);
 const jsButtonOut = () => mouseOut();
+
+
+const handleMobile = () => {
+    if ($(window).width() < 699) {
+        document.getElementById('html-btn').onmouseover= null;
+        document.getElementById('css-btn').onmouseover = null;
+        document.getElementById('js-btn').onmouseover = null;
+    }
+    else {
+        return;
+    }
+}
+
+handleMobile();
+
+
+
+
+
 
 
 

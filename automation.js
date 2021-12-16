@@ -40,6 +40,7 @@ const insertAfter = (referenceElem, newElem) => {
 
 // create Paragraph with back button
 const createP = () => {
+
     let getLinkToHomePage = document.querySelector('.link');
     let getAFromLink = document.querySelector('.link-a');
 
