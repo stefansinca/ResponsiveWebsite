@@ -16,8 +16,7 @@ This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and
 - VS Code 1.62
 
 ## Upcoming Updates
-This project is created to be updated based on futures courses from Codecademy or outside of the platform. Extra pages will be created, like Portofolio, more informations about
-Team, a better understand of the vision of ThinQ and, the webiste will be updated with JavaScript in the future.
+This project is created to be updated based on futures courses from Codecademy or outside of the platform. Extra pages will be created, like Team Member page, a Clients page with reviews. More functionality will be added in the future, includin a LogIn future.
 
 ## Updated to ThinQ 2.0
 HTML code was changed to become a responsive website. The code was structured in a different way in comparison with the old HTML code. It's mutch more simplified now and much easier to be readed. In the same time, the CSS code is separated:
@@ -35,14 +34,17 @@ The code was redisegned to be a **responsive website** :
 5. Skills section was created and styled with some CSS.
 6. Contact sections was created with some CSS style.
 
+## Updated to ThinQ 4.0
+The code was updated to be responsive/available on mobile devices.
+
 ## Setup
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
 
 ## Status
-The project needs a **mobile version**. This update will come in ThinQ 4.0.
+Website is **Completed** until future updates.
 
 ## Inspiration
 This project is ispired from "Full-Stack Engineer" career path course from Codecademy. The project was made totally independed from the platform.
 
 ## Time invested
-About 42 hours until now.
+About 44 hours until now.
