@@ -37,6 +37,9 @@ The code was redisegned to be a **responsive website** :
 ## Updated to ThinQ 4.0
 The code was updated to be responsive/available on mobile devices.
 
+## Coming Updates
+The code will be refactored with ReactJS and Redux and stored on a live server. 
+
 ## Setup
 Download the files from **ResponsiveWebsite** repositorie and open **index.html** in a browser.
 
