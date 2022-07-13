@@ -2,6 +2,11 @@
 
 This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and it's meant to be a landing page of a short presentation of the company ThinQ (which  I really don't know if it really exist).
 
+## Live
+
+ThinQ is up and running here: https://thinq.netlify.app/
+Enjoy!
+
 ## Images
 <img width="1421" alt="Screenshot at Dec 13 23-48-49" src="https://user-images.githubusercontent.com/66974377/145894324-b545370c-27bd-40eb-aab0-b53e8a1f9d68.png">
 <img width="1421" alt="Screenshot at Dec 15 21-04-34" src="https://user-images.githubusercontent.com/66974377/146249101-ac0421be-2306-4b11-9d7d-7c00e85abd4a.png">
