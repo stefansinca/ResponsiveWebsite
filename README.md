@@ -2,7 +2,7 @@
 
 This project is inspired by the Codecademy Path Course 'Full-Stack Engineer' and it's meant to be a landing page of a short presentation of the company ThinQ (which  I really don't know if it really exist).
 
-## Live
+# Live
 
 ThinQ is up and running here: https://thinq.netlify.app/
 Enjoy!
